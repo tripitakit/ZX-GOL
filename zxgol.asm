@@ -5,10 +5,9 @@
 ; a living cell stays alive if it has 2 or 3 living neighbours, or dies;
 ; a dead cell becomes alive at next generation if it has exaclty 3 living neighbours.
 ;
-; MAIN_LOOP
 ; the world lives in the ATTRIBUTES MEMORY
 ; dimensions: 22 rows x 32 columns
-; each living cell is a green 8x8 pixel
+; each living cell is a yellow square (8x8 pixel)
 
 ; EDIT_LOOP
 ; user can move around with WASD
