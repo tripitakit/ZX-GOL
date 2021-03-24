@@ -2,12 +2,12 @@
 ; Conway's Game of Life
 ; ------------------------------------------------------------------
 ; at every generation:
-; a living cell stays alive with 3 or 4 living neighbours, or dies
-; a dead cell becomes alive with exaclty 3 living neighbours.
+; a living cell stays alive if it has 2 or 3 living neighbours, or dies;
+; a dead cell becomes alive at next generation if it has exaclty 3 living neighbours.
 ;
 ; MAIN_LOOP
-; the world lives in the ATTRIBUTES MEMORY of the Spectrum
-; dimensions: 24 rows x 32 columns
+; the world lives in the ATTRIBUTES MEMORY
+; dimensions: 22 rows x 32 columns
 ; each living cell is a green 8x8 pixel
 
 ; EDIT_LOOP
@@ -16,13 +16,14 @@
 ; user can paint a cell with IJKL around cursor position
 ; user can erase a cell at cursor position with BACKSAPCE
 ; user can start the life simulation with R
+; user can go back to main screen with X
 
 
 ; GAME_LOOP
 ; double buffering
 ; evaluate next generation 
 ; render world 
-; user can stop the running simulation with H and go back to MAIN_LOOP
+; user can stop the running simulation with H and go back to edit mode
 
 
                 org 33000
