@@ -4,7 +4,9 @@
 
 ## Z80 Assembly Conway's Game of Life for the Sinclair ZX-Spectrum 48K
 
-The code ha been developed and tested on Fuse with the Pasmo assembler.
+## Requirements
+Fuse ZX-Spectrum Emulator
+Pasmo Z80 assembler (if you want to assemble it by yourself)
 
 ## Usage
 
