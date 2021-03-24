@@ -262,7 +262,7 @@ SpawnUp         ld a,(row)
                 jp MainLoop
 
 SpawnDown       ld a,(row)
-		cp 22
+		cp 21
 		jp z,MainLoop
 		ld a,AT
                 rst 16
