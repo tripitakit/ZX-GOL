@@ -6,14 +6,13 @@
 
 The code ha been developed and tested on Fuse with the Pasmo assembler.
 
-
 ## Usage
 
-(Assemble: pasmo --tap zxol.asm zxgol.tap)
+Assemble with: pasmo --tap zxgol.asm zxgol.tap
 
-Load zgfol.tap file in Fuse
+Load zxgol.tap file in Fuse
 
-Execute the program: RANDOMIZE USR 33000
+Execute the program with: RANDOMIZE USR 33000
 
 Have fun!
 
